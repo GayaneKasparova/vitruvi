@@ -295,8 +295,9 @@ header {
 header .main-logo {
   position: absolute;
   top: 50%;
-  left: 30px;
+  left: 0;
   transform: translateY(-50%);
+  z-index: 102;
 }
 header #mobMenu {
   position: absolute;
@@ -317,7 +318,7 @@ header #mobMenu {
   header #mobMenu {
     position: static;
     height: 90px;
-    padding-bottom: 0;
+    padding: 0;
   }
 }
 @media (min-width: 992px) {
@@ -330,8 +331,7 @@ header #mobMenu nav {
 }
 @media (min-width: 768px) {
   header #mobMenu nav {
-    padding-left: 160px;
-    padding-right: 30px;
+    padding-left: 130px;
   }
 }
 @media (min-width: 768px) and (max-width: 991.98px) {
@@ -373,8 +373,7 @@ header #mobMenu nav > ul > li {
 }
 @media (min-width: 768px) {
   header #mobMenu nav > ul > li {
-    width: 100%;
-    padding: 0 15px;
+    padding: 0 10px;
   }
 }
 header #mobMenu nav > ul > li > a, header #mobMenu nav > ul > li > span {
@@ -420,17 +419,11 @@ header #mobMenu nav > ul > li.has-sub-menu .sub-menu {
     transition: all 0.3s ease;
   }
 }
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) {
   header #mobMenu nav > ul > li.has-sub-menu .sub-menu {
     padding-top: 30px;
     left: 120px;
-    right: 0;
-  }
-}
-@media (min-width: 1200px) {
-  header #mobMenu nav > ul > li.has-sub-menu .sub-menu {
-    left: 170px;
-    right: 30px;
+    right: 10px;
   }
 }
 header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li {
@@ -459,6 +452,9 @@ header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li h3 {
   header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li h3 {
     margin-bottom: 60px;
   }
+}
+header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li li {
+  margin: 5px;
 }
 header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li a {
   font-size: 14px;
@@ -489,10 +485,11 @@ header #mobMenu nav + div {
 }
 @media (min-width: 768px) {
   header #mobMenu nav + div {
+    height: 100%;
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    padding-right: 30px;
+    padding-right: 0;
   }
 }
 @media (max-width: 767.98px) {
@@ -541,12 +538,15 @@ header #mobMenu nav + div .contacts ul li i {
 @media (min-width: 768px) {
   header #mobMenu nav + div div.search {
     width: auto;
-    margin-left: 10px;
+    margin-left: 15px;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     transition: all 0.3s ease;
   }
   header #mobMenu nav + div div.search:focus-within {
+    margin-left: 10px;
     position: absolute;
     left: 0;
     right: 0;
@@ -554,12 +554,15 @@ header #mobMenu nav + div .contacts ul li i {
     background: white;
     width: 100%;
   }
+  header #mobMenu nav + div div.search:focus-within input {
+    margin: 0 10px;
+  }
 }
 header #mobMenu nav + div div.search label {
   margin: 0;
+  cursor: pointer;
 }
 header #mobMenu nav + div div.search input {
-  margin: 0 10px;
   padding: 0;
   border: none;
   outline: 0;
