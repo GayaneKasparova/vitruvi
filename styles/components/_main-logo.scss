@@ -1,0 +1,239 @@
+.mainLogo {
+  .fill-white {
+    fill: #ffffff;
+    transition: all .3s ease;
+  }
+
+  .stroke-white {
+    fill: none;
+    stroke: #ffffff;
+    stroke-miterlimit: 10;
+    stroke-width: 0.5;
+    transition: all .3s ease;
+  }
+
+  #graph {
+    transition: all .3s ease;
+  }
+
+  #ellipse_796 {
+    transform: translate(22.438px, 1.855px);
+  }
+
+  #ellipse_797 {
+    transform: translate(33.421px, 43.873px);
+  }
+
+  #ellipse_798 {
+    transform: translate(6.075px, 37.269px);
+  }
+
+  #ellipse_799 {
+    transform: translate(45.719px, 21.863px);
+  }
+
+  #ellipse_800 {
+    transform: translate(33.717px, 11.753px);
+  }
+
+  #ellipse_801 {
+    transform: translate(6.837px, 19.564px);
+  }
+
+  #ellipse_802 {
+    transform: translate(19.085px, 41.707px);
+  }
+
+  #ellipse_803 {
+    transform: translate(13.495px, 31.559px);
+  }
+
+  #ellipse_804 {
+    transform: translate(40.732px, 32.491px);
+  }
+
+  #path_43206 {
+    transform: translate(-358.664px, -211.593px);
+  }
+
+  #path_43207 {
+    transform: translate(-359.017px, -214.446px);
+  }
+
+  #line_2 {
+    transform: translate(35.241px, 24.149px);
+  }
+
+  #line_3 {
+    transform: translate(20.609px, 34.319px);
+  }
+
+  #line_4 {
+    transform: translate(7.965px, 39.871px);
+  }
+
+  #line_5 {
+    transform: translate(24.724px, 4.141px);
+  }
+
+  #line_6 {
+    transform: translate(8.361px, 21.088px);
+  }
+
+  #line_7 {
+    transform: translate(8.361px, 21.088px);
+  }
+
+  #line_8 {
+    transform: translate(15.019px, 4.141px);
+  }
+
+  #line_9 {
+    transform: translate(24.724px, 4.141px);
+  }
+
+  #line_10 {
+    transform: translate(35.241px, 13.277px);
+  }
+
+  #line_11 {
+    transform: translate(8.361px, 21.088px);
+  }
+
+  #ellipse_805 {
+    transform: translate(37.986px, 22.612px);
+  }
+
+  #ellipse_806 {
+    transform: translate(32.659px, 37.157px);
+  }
+
+  #ellipse_807 {
+    transform: translate(25.228px, 21.856px);
+  }
+
+  #ellipse_808 {
+    transform: translate(17.987px, 21.094px);
+  }
+
+  #ellipse_809 {
+    transform: translate(27.911px, 18.802px);
+  }
+
+  #ellipse_810 {
+    transform: translate(28.674px, 21.856px);
+  }
+
+  #line_12 {
+    transform: translate(15.019px, 33.077px);
+  }
+
+  &:hover {
+    #graph {
+      transform: matrix(0.891, -0.454, 0.454, 0.891, -1.129, 20.319);
+    }
+    #ellipse_797 {
+      transform: translate(25.237px, 28.357px);
+    }
+
+    #ellipse_798 {
+      transform: translate(6.075px, 23.951px);
+    }
+
+    #ellipse_799 {
+      transform: translate(33.627px, 14.338px);
+    }
+
+    #ellipse_800 {
+      transform: translate(25.598px, 8.163px);
+    }
+
+    #ellipse_801 {
+      transform: translate(6.837px, 13.141px);
+    }
+
+    #ellipse_802 {
+      transform: translate(19.085px, 26.191px);
+    }
+
+    #ellipse_803 {
+      transform: translate(13.495px, 20.786px);
+    }
+
+    #ellipse_804 {
+      transform: translate(30.552px, 21.38px);
+    }
+
+    #path_43207 {
+      transform: translate(-359.017px, -223.065px);
+    }
+
+    #line_2 {
+      transform: translate(23.957px, 8.633px);
+    }
+
+    #line_3 {
+      transform: translate(16.553px, 20.744px);
+    }
+
+    #line_4 {
+      transform: translate(7.965px, 24.355px);
+    }
+
+    #line_5 {
+      transform: translate(13.953px, 4.141px);
+    }
+
+    #line_6 {
+      transform: translate(2.315px, 14.11px);
+    }
+
+    #line_7 {
+      transform: translate(8.361px, 10.181px);
+    }
+
+    #line_8 {
+      transform: translate(15.019px, 3.225px);
+    }
+
+    #line_9 {
+      transform: translate(18.009px, 4.141px);
+    }
+
+    #line_10 {
+      transform: translate(25.761px, 6.213px);
+    }
+
+    #line_11 {
+      transform: translate(8.361px, 8.488px);
+    }
+
+    #ellipse_805 {
+      transform: translate(28.948px, 15.342px);
+    }
+
+    #ellipse_806 {
+      transform: translate(25.129px, 24.794px);
+    }
+
+    #ellipse_807 {
+      transform: translate(25.228px, 14.851px);
+    }
+
+    #ellipse_808 {
+      transform: translate(17.987px, 14.356px);
+    }
+
+    #ellipse_809 {
+      transform: translate(21.726px, 12.867px);
+    }
+
+    #ellipse_810 {
+      transform: translate(22.273px, 14.851px);
+    }
+
+    #line_12 {
+      transform: translate(15.019px, 21.258px);
+    }
+  }
+}

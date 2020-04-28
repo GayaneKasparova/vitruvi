@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="104.013" height="104.013" viewBox="0 0 104.013 104.013">
+  <defs>
+    <style>
+      .cls-1 {
+        opacity: 0.3;
+      }
+
+      .cls-2 {
+        fill: #2e2e2e;
+      }
+
+      .cls-3 {
+        fill: #fff;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+    </style>
+  </defs>
+  <g id="Group_24072" data-name="Group 24072" class="cls-1" transform="translate(-697.054 -85.115)">
+    <circle id="Ellipse_795" data-name="Ellipse 795" class="cls-2" cx="52.007" cy="52.007" r="52.007" transform="translate(697.054 85.115)"/>
+    <circle id="Ellipse_796" data-name="Ellipse 796" class="cls-3" cx="4.588" cy="4.588" r="4.588" transform="translate(742.085 88.837)"/>
+    <circle id="Ellipse_797" data-name="Ellipse 797" class="cls-3" cx="3.823" cy="3.823" r="3.823" transform="translate(764.127 173.164)"/>
+    <circle id="Ellipse_798" data-name="Ellipse 798" class="cls-3" cx="4.588" cy="4.588" r="4.588" transform="translate(709.245 159.91)"/>
+    <circle id="Ellipse_799" data-name="Ellipse 799" class="cls-3" cx="4.588" cy="4.588" r="4.588" transform="translate(788.806 128.991)"/>
+    <circle id="Ellipse_800" data-name="Ellipse 800" class="cls-3" cx="3.059" cy="3.059" r="3.059" transform="translate(764.721 108.702)"/>
+    <circle id="Ellipse_801" data-name="Ellipse 801" class="cls-3" cx="3.059" cy="3.059" r="3.059" transform="translate(710.775 124.377)"/>
+    <circle id="Ellipse_802" data-name="Ellipse 802" class="cls-3" cx="3.059" cy="3.059" r="3.059" transform="translate(735.356 168.817)"/>
+    <circle id="Ellipse_803" data-name="Ellipse 803" class="cls-3" cx="3.059" cy="3.059" r="3.059" transform="translate(724.136 148.451)"/>
+    <circle id="Ellipse_804" data-name="Ellipse 804" class="cls-3" cx="3.059" cy="3.059" r="3.059" transform="translate(778.797 150.321)"/>
+    <path id="Path_43206" data-name="Path 43206" class="cls-4" d="M399.866,215.734l-32.841,34.011" transform="translate(346.807 -122.309)"/>
+    <path id="Path_43207" data-name="Path 43207" class="cls-4" d="M420.189,227.723c-10.947,11.337-40.737,39.37-51.684,50.707" transform="translate(347.591 -115.963)"/>
+    <line id="Line_2" data-name="Line 2" class="cls-4" x1="26.012" y2="44.484" transform="translate(767.779 133.579)"/>
+    <line id="Line_3" data-name="Line 3" class="cls-4" x1="43.442" y2="17.506" transform="translate(738.414 153.99)"/>
+    <line id="Line_4" data-name="Line 4" class="cls-4" x1="54.912" y1="11.856" transform="translate(713.038 165.132)"/>
+    <line id="Line_5" data-name="Line 5" class="cls-4" x1="46.721" y1="40.154" transform="translate(746.673 93.425)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-4" x1="79.561" y1="6.144" transform="translate(713.833 127.436)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-4" y2="37.063" transform="translate(713.833 127.436)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-4" x1="19.479" y2="58.085" transform="translate(727.194 93.425)"/>
+    <line id="Line_9" data-name="Line 9" class="cls-4" x2="21.347" y2="83.744" transform="translate(746.673 93.425)"/>
+    <line id="Line_10" data-name="Line 10" class="cls-4" x2="14.077" y2="41.619" transform="translate(767.779 111.76)"/>
+    <line id="Line_11" data-name="Line 11" class="cls-4" x2="24.581" y2="44.44" transform="translate(713.833 127.436)"/>
+    <circle id="Ellipse_805" data-name="Ellipse 805" class="cls-3" cx="1.529" cy="1.529" r="1.529" transform="translate(773.288 130.494)"/>
+    <circle id="Ellipse_806" data-name="Ellipse 806" class="cls-3" cx="1.529" cy="1.529" r="1.529" transform="translate(762.597 159.684)"/>
+    <circle id="Ellipse_807" data-name="Ellipse 807" class="cls-3" cx="1.529" cy="1.529" r="1.529" transform="translate(747.684 128.978)"/>
+    <circle id="Ellipse_808" data-name="Ellipse 808" class="cls-3" cx="1.529" cy="1.529" r="1.529" transform="translate(733.152 127.449)"/>
+    <circle id="Ellipse_809" data-name="Ellipse 809" class="cls-3" cx="1.529" cy="1.529" r="1.529" transform="translate(753.069 122.848)"/>
+    <circle id="Ellipse_810" data-name="Ellipse 810" class="cls-3" cx="1.529" cy="1.529" r="1.529" transform="translate(754.598 128.978)"/>
+    <line id="Line_12" data-name="Line 12" class="cls-4" x1="36.932" y1="9.717" transform="translate(727.194 151.497)"/>
+  </g>
+</svg>

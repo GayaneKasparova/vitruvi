@@ -1,0 +1,37 @@
+.icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+  background-position: 0;
+  background-size: contain;
+
+  &.address {
+    width: 14px;
+    background-image: url(../images/icons/gps.svg);
+    &.gray {
+      background-image: url(../images/icons/gps-gray.svg);
+    }
+  }
+
+  &.phone {
+    height: 18px;
+    width: 18px;
+    background-image: url(../images/icons/phone.svg);
+    &.gray {
+      background-image: url(../images/icons/phone-gray.svg);
+    }
+  }
+
+  &.mail {
+    height: 15px;
+    background-image: url(../images/icons/mail.svg);
+  }
+
+  &.search {
+    width: 17px;
+    height: 18px;
+    background-image: url(../images/icons/search.svg);
+
+  }
+}

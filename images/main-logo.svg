@@ -1,0 +1,70 @@
+<svg id="Component_15_1" data-name="Component 15 – 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="137.314" height="51.828" viewBox="0 0 137.314 51.828">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #0063b0;
+        font-size: 18px;
+        font-family: SegoeUI, Segoe UI;
+      }
+
+      .cls-2 {
+        fill: #464749;
+        font-size: 19px;
+      }
+
+      .cls-3 {
+        fill: url(#linear-gradient);
+      }
+
+      .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+        stroke-width: 0.5px;
+      }
+    </style>
+    <linearGradient id="linear-gradient" x1="0.146" y1="0.854" x2="0.854" y2="0.146" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#00a1ed"/>
+      <stop offset="1" stop-color="#0063b0"/>
+    </linearGradient>
+  </defs>
+  <text id="VITRUVI_SOFT" data-name="VITRUVI
+SOFT" class="cls-1" transform="translate(59.314 19.513)"><tspan x="0" y="0">VITRUVI</tspan><tspan class="cls-2"><tspan x="0" y="20">SOFT</tspan></tspan></text>
+  <g id="Group_24940" data-name="Group 24940">
+    <circle id="Ellipse_795" data-name="Ellipse 795" class="cls-3" cx="25.914" cy="25.914" r="25.914"/>
+    <g id="Group_24939" data-name="Group 24939">
+      <circle id="Ellipse_796" data-name="Ellipse 796" class="cls-4" cx="2.286" cy="2.286" r="2.286" transform="translate(22.438 1.855)"/>
+      <circle id="Ellipse_797" data-name="Ellipse 797" class="cls-4" cx="1.905" cy="1.905" r="1.905" transform="translate(33.421 43.873)"/>
+      <circle id="Ellipse_798" data-name="Ellipse 798" class="cls-4" cx="2.286" cy="2.286" r="2.286" transform="translate(6.075 37.269)"/>
+      <circle id="Ellipse_799" data-name="Ellipse 799" class="cls-4" cx="2.286" cy="2.286" r="2.286" transform="translate(45.719 21.863)"/>
+      <circle id="Ellipse_800" data-name="Ellipse 800" class="cls-4" cx="1.524" cy="1.524" r="1.524" transform="translate(33.717 11.753)"/>
+      <circle id="Ellipse_801" data-name="Ellipse 801" class="cls-4" cx="1.524" cy="1.524" r="1.524" transform="translate(6.837 19.564)"/>
+      <circle id="Ellipse_802" data-name="Ellipse 802" class="cls-4" cx="1.524" cy="1.524" r="1.524" transform="translate(19.085 41.707)"/>
+      <circle id="Ellipse_803" data-name="Ellipse 803" class="cls-4" cx="1.524" cy="1.524" r="1.524" transform="translate(13.495 31.559)"/>
+      <circle id="Ellipse_804" data-name="Ellipse 804" class="cls-4" cx="1.524" cy="1.524" r="1.524" transform="translate(40.732 32.491)"/>
+      <path id="Path_43206" data-name="Path 43206" class="cls-5" d="M383.389,215.734l-16.364,16.947" transform="translate(-358.664 -211.593)"/>
+      <path id="Path_43207" data-name="Path 43207" class="cls-5" d="M394.258,227.723c-5.455,5.649-20.3,19.617-25.753,25.266" transform="translate(-359.017 -214.446)"/>
+      <line id="Line_2" data-name="Line 2" class="cls-5" x1="12.961" y2="22.165" transform="translate(35.241 24.149)"/>
+      <line id="Line_3" data-name="Line 3" class="cls-5" x1="21.646" y2="8.723" transform="translate(20.609 34.319)"/>
+      <line id="Line_4" data-name="Line 4" class="cls-5" x1="27.362" y1="5.907" transform="translate(7.965 39.871)"/>
+      <line id="Line_5" data-name="Line 5" class="cls-5" x1="23.28" y1="20.008" transform="translate(24.724 4.141)"/>
+      <line id="Line_6" data-name="Line 6" class="cls-5" x1="39.644" y1="3.061" transform="translate(8.361 21.088)"/>
+      <line id="Line_7" data-name="Line 7" class="cls-5" y2="18.468" transform="translate(8.361 21.088)"/>
+      <line id="Line_8" data-name="Line 8" class="cls-5" x1="9.706" y2="28.943" transform="translate(15.019 4.141)"/>
+      <line id="Line_9" data-name="Line 9" class="cls-5" x2="10.637" y2="41.728" transform="translate(24.724 4.141)"/>
+      <line id="Line_10" data-name="Line 10" class="cls-5" x2="7.014" y2="20.738" transform="translate(35.241 13.277)"/>
+      <line id="Line_11" data-name="Line 11" class="cls-5" x2="12.248" y2="22.144" transform="translate(8.361 21.088)"/>
+      <circle id="Ellipse_805" data-name="Ellipse 805" class="cls-4" cx="0.762" cy="0.762" r="0.762" transform="translate(37.986 22.612)"/>
+      <circle id="Ellipse_806" data-name="Ellipse 806" class="cls-4" cx="0.762" cy="0.762" r="0.762" transform="translate(32.659 37.157)"/>
+      <circle id="Ellipse_807" data-name="Ellipse 807" class="cls-4" cx="0.762" cy="0.762" r="0.762" transform="translate(25.228 21.856)"/>
+      <circle id="Ellipse_808" data-name="Ellipse 808" class="cls-4" cx="0.762" cy="0.762" r="0.762" transform="translate(17.987 21.094)"/>
+      <circle id="Ellipse_809" data-name="Ellipse 809" class="cls-4" cx="0.762" cy="0.762" r="0.762" transform="translate(27.911 18.802)"/>
+      <circle id="Ellipse_810" data-name="Ellipse 810" class="cls-4" cx="0.762" cy="0.762" r="0.762" transform="translate(28.674 21.856)"/>
+      <line id="Line_12" data-name="Line 12" class="cls-5" x1="18.403" y1="4.842" transform="translate(15.019 33.077)"/>
+    </g>
+  </g>
+</svg>
