@@ -2,27 +2,41 @@
 
 footer {
   position: relative;
-  padding: 40px 40px 90px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  text-align: center;
-  color: #ffffff;
   background-color: #676767;
   overflow: hidden;
-  @include media-breakpoint-up(md) {
-    flex-direction: row;
-    justify-content: space-evenly;
-    text-align: left;
+
+  .container {
+    padding: 40px 15px 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    @include media-breakpoint-up(md) {
+      flex-direction: row;
+      justify-content: space-evenly;
+      text-align: left;
+    }
+
+    @include media-breakpoint-up(lg) {
+      justify-content: center;
+      padding: 70px 15px;
+      align-items: stretch;
+    }
+    & > div {
+      display: flex;
+      flex-direction: column;
+      @include media-breakpoint-only(md) {
+        align-items: flex-start;
+      }
+      @include media-breakpoint-up(lg) {
+        flex-direction: row;
+        align-items: stretch;
+      }
+    }
   }
 
-  @include media-breakpoint-up(lg) {
-    justify-content: center;
-    padding: 70px 45px;
-    align-items: stretch;
-  }
-
-/* footer right bottom corner's graphics */
+  /* footer right bottom corner's graphics */
   &::after {
     content: "";
     position: absolute;
@@ -38,23 +52,13 @@ footer {
       bottom: -145px;
       right: -220px;
     }
-    @media (min-width: 1700px){
+    @media (min-width: 1700px) {
       bottom: -95px;
       right: -200px;
     }
   }
 
-  & > div {
-    display: flex;
-    flex-direction: column;
-    @include media-breakpoint-only(md) {
-      align-items: flex-start;
-    }
-    @include media-breakpoint-up(lg) {
-      flex-direction: row;
-      align-items: stretch;
-    }
-  }
+
 
   .logo-container {
     position: relative;
@@ -110,17 +114,14 @@ footer {
     flex-direction: column;
     @include media-breakpoint-up(lg) {
       flex-direction: row;
+      justify-content: space-around;
+      margin-left: 10px;
     }
 
 
     & > li {
       @include media-breakpoint-up(lg) {
-        margin-left: 10px;
-        margin-right: 10px;
-      }
-      @include media-breakpoint-up(xl) {
-        margin-left: 20px;
-        margin-right: 20px;
+        width: 30%;
       }
     }
 
@@ -131,3 +132,4 @@ footer {
     }
   }
 }
+
