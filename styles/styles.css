@@ -355,6 +355,11 @@ header #mobMenu nav {
     background-color: #aeafb4;
   }
 }
+@media (min-width: 1200px) {
+  header #mobMenu nav {
+    padding-left: 150px;
+  }
+}
 header #mobMenu nav > ul {
   height: 100%;
   width: 100%;
@@ -373,7 +378,7 @@ header #mobMenu nav > ul > li {
 }
 @media (min-width: 768px) {
   header #mobMenu nav > ul > li {
-    padding: 0 10px;
+    width: 100%;
   }
 }
 header #mobMenu nav > ul > li > a, header #mobMenu nav > ul > li > span {
@@ -391,6 +396,7 @@ header #mobMenu nav > ul > li > a, header #mobMenu nav > ul > li > span {
     justify-content: center;
     align-items: center;
     font-size: 16px;
+    white-space: nowrap;
   }
   header #mobMenu nav > ul > li > a::before, header #mobMenu nav > ul > li > span::before {
     content: "";
@@ -454,7 +460,23 @@ header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li h3 {
   }
 }
 header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li li {
-  margin: 5px;
+  display: block;
+  position: relative;
+  margin: 5px 0;
+}
+header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li li::before {
+  content: "";
+  width: 2px;
+  max-height: 0;
+  position: absolute;
+  top: 5px;
+  bottom: 3px;
+  left: -5px;
+  background-color: #22a2ff;
+  transition: all 0.3s ease;
+}
+header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li li:hover::before {
+  max-height: 100px;
 }
 header #mobMenu nav > ul > li.has-sub-menu .sub-menu > li a {
   font-size: 14px;

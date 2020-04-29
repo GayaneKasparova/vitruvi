@@ -60,6 +60,10 @@ header {
         }
       }
 
+      @include media-breakpoint-up(xl) {
+        padding-left: 150px;
+      }
+
       & > ul {
         height: 100%;
         width: 100%;
@@ -74,7 +78,7 @@ header {
         & > li {
           height: 100%;
           @include media-breakpoint-up(md) {
-            padding: 0 10px;
+            width: 100%;
           }
 
           & > a,
@@ -91,6 +95,7 @@ header {
               justify-content: center;
               align-items: center;
               font-size: 16px;
+              white-space: nowrap;
               &::before {
                 content: "";
                 position: absolute;
@@ -146,7 +151,25 @@ header {
                   }
                 }
                 li {
-                  margin: 5px;
+                  display: block;
+                  position: relative;
+                  margin: 5px 0;
+                  &::before {
+                    content: "";
+                    width: 2px;
+                    max-height: 0;
+                    position: absolute;
+                    top: 5px;
+                    bottom: 3px;
+                    left: -5px;
+                    background-color: #22a2ff;
+                    transition: all .3s ease;
+                  }
+                  &:hover {
+                    &::before {
+                      max-height: 100px;
+                    }
+                  }
                 }
                 a {
                   font-size: 14px;
