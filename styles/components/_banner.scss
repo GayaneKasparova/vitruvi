@@ -7,7 +7,6 @@
     min-height: 180px;
     background-size: cover;
     background-position: center;
-    transition: all .3s ease;
     @include media-breakpoint-only(sm) {
       min-height: 250px;
     }
@@ -17,7 +16,6 @@
     padding: 35px 30px 5px;
     letter-spacing: 0;
     text-align: center;
-    transition: all .3s ease;
     @include media-breakpoint-up(lg) {
       padding: 55px 60px 37px;
       text-align: left;

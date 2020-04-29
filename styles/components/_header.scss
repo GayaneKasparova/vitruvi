@@ -11,9 +11,18 @@ header {
   .main-logo {
     position: absolute;
     top: 50%;
-    left: 0;
+    left: 15px;
     transform: translateY(-50%);
     z-index: 102;
+    @include media-breakpoint-only(lg) {
+      left: 15px;
+    }
+    @include media-breakpoint-up(xl) {
+      left: 30px;
+    }
+    @media (min-width: 1650px) {
+      left: calc(66.6% - 1060px);
+    }
   }
 
   #mobMenu {
@@ -48,6 +57,7 @@ header {
       }
       @include media-breakpoint-up(lg) {
         height: 100%;
+        padding-right: 0;
         order: unset;
         &::after {
           content: "";
@@ -62,6 +72,7 @@ header {
 
       @include media-breakpoint-up(xl) {
         padding-left: 150px;
+        justify-content: flex-end;
       }
 
       & > ul {
@@ -70,15 +81,20 @@ header {
         display: flex;
         flex-direction: column;
         @include media-breakpoint-up(md) {
+          position: relative;
           flex-direction: row;
           justify-content: space-evenly;
           align-items: center;
+        }
+        @include media-breakpoint-up(xl) {
+          max-width: 950px;
         }
 
         & > li {
           height: 100%;
           @include media-breakpoint-up(md) {
             width: 100%;
+            padding: 5px 0;
           }
 
           & > a,
@@ -116,7 +132,7 @@ header {
               @include media-breakpoint-up(md) {
                 position: absolute;
                 top: 100%;
-                left: 160px;
+                left: -30px;
                 right: 30px;
                 max-height: 0;
                 display: flex;
@@ -125,7 +141,6 @@ header {
               }
               @include media-breakpoint-up(lg) {
                 padding-top: 30px;
-                left: 120px;
                 right: 10px;
               }
 
@@ -205,14 +220,22 @@ header {
       }
 
       & + div {
-        display: flex;
-        flex-direction: column;
-        @include media-breakpoint-up(md) {
-          height: 100%;
-          flex-direction: row;
-          justify-content: flex-end;
-          align-items: center;
-          padding-right: 0;
+
+        & > div {
+          display: flex;
+          flex-direction: column;
+          @include media-breakpoint-up(md) {
+            height: 100%;
+            flex-direction: row;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 0;
+          }
+          @include media-breakpoint-up(xl) {
+            padding-right: 30px;
+            max-width: 400px;
+            justify-content: flex-start;
+          }
         }
 
         .contacts {
@@ -239,7 +262,7 @@ header {
               font-size: 14px;
               @include media-breakpoint-up(md) {
                 display: flex;
-                margin: 0 10px;
+                margin: 3px 10px;
                 justify-content: center;
                 align-items: center;
               }

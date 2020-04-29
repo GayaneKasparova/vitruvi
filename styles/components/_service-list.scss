@@ -7,31 +7,27 @@
     display: flex;
     flex-wrap: wrap;
     margin: auto;
-    @include media-breakpoint-only(sm) {
-      max-width: 620px;
-    }
-    @include media-breakpoint-only(md) {
-      max-width: 800px;
-    }
-    @include media-breakpoint-only(lg) {
-      max-width: 1040px;
-    }
+
     @include media-breakpoint-up(xl) {
-      max-width: 1220px;
+      max-width: 1400px;
     }
 
     li {
       width: 100%;
       padding: 20px 15px;
       letter-spacing: 0;
+      text-align: left;
       transition: all .3s ease;
       @include media-breakpoint-up(sm) {
         width: 50%;
-        padding: 30px;
+        padding: 30px 15px;
+      }
+      @include media-breakpoint-only(lg) {
+        text-align: justify;
       }
       @include media-breakpoint-up(lg) {
         width: 25%;
-        padding: 40px;
+        padding: 40px 15px;
       }
 
       &:hover {

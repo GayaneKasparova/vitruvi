@@ -27,7 +27,7 @@
 </head>
 <body>
 
-<header class="container navbar-expand-md">
+<header class="container-fluid navbar-expand-md">
     <!--Logo with animation on hover-->
     <a href="/" class="main-logo">
         <svg class="mainLogo" data-name="Main logo" xmlns="http://www.w3.org/2000/svg"
@@ -144,45 +144,48 @@ SOFT" transform="translate(59.314 19.513)" fill="#0063b0" font-size="18" font-fa
 
         <!--Contacts and search starts-->
         <div class="col-12 col-lg-4">
-            <!--Contacts-->
-            <div class="contacts">
-                <ul>
-                    <li>
-                        <i class="icon address gray"></i>
-                        Address: <a href="https://goo.gl/maps/YZUXneKA48mJt8Dj7" target="_blank">3 H.Hakobyan str.
-                        56</a>
-                    </li>
-                    <li>
-                        <i class="icon phone gray"></i>
-                        <a href="tel:+3749 55 55 55">+3749 55 55 55</a>
-                    </li>
-                </ul>
+            <div>
+                <!--Contacts-->
+                <div class="contacts">
+                    <ul>
+                        <li>
+                            <i class="icon address gray"></i>
+                            Address: <a href="https://goo.gl/maps/YZUXneKA48mJt8Dj7" target="_blank">3 H.Hakobyan str.
+                            56</a>
+                        </li>
+                        <li>
+                            <i class="icon phone gray"></i>
+                            <a href="tel:+3749 55 55 55">+3749 55 55 55</a>
+                        </li>
+                    </ul>
+                </div>
+                <!--Search-->
+                <div class="search">
+                    <label for="search"><i class="icon search"></i></label>
+                    <input type="text" id="search" name="search">
+                </div>
+
             </div>
-            <!--Search-->
-            <div class="search">
-                <label for="search"><i class="icon search"></i></label>
-                <input type="text" id="search" name="search">
-            </div>
+            <!--Contacts and search ends-->
         </div>
-        <!--Contacts and search ends-->
     </div>
 
-    <!--Navbar toggler starts-->
-    <button class="navbar-toggler collapsed"
-            type="button"
-            data-toggle="collapse"
-            data-target="#mobMenu"
-            aria-controls="mobMenu"
-            aria-expanded="false"
-            aria-label="Toggle navigation">
-        <span></span>
-    </button>
-    <!--Navbar toggler ends-->
+        <!--Navbar toggler starts-->
+        <button class="navbar-toggler collapsed"
+                type="button"
+                data-toggle="collapse"
+                data-target="#mobMenu"
+                aria-controls="mobMenu"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+            <span></span>
+        </button>
+        <!--Navbar toggler ends-->
 </header>
 
 <main>
     <!--Banner section starts-->
-    <section class="container banner homepage">
+    <section class="container-fluid banner homepage">
         <div class="row">
             <div class="col-12 col-md-7 col-lg-8 banner-image"></div>
             <div class="col-12 col-md-5 col-lg-4 banner-content">
@@ -345,56 +348,57 @@ SOFT" transform="translate(59.314 19.513)" fill="#0063b0" font-size="18" font-fa
 </main>
 
 <footer>
-    <div class="container">
-    <!--Contacts section starts-->
-    <div>
-        <a href="/" class="logo-container">
-            <img src="./images/logo-bw.svg" alt="Vitruvi logo">
-        </a>
-        <div class="contacts">
-            <h3>Address</h3>
-            <ul>
-                <li>
-                    <i class="icon address"></i>
-                    Address: <a href="https://goo.gl/maps/YZUXneKA48mJt8Dj7" target="_blank">3 H.Hakobyan str. 56</a>
-                </li>
-                <li>
-                    <i class="icon phone"></i>
-                    <a href="tel:+3749 55 55 55">+3749 55 55 55</a></li>
-                <li>
-                    <i class="icon mail"></i>
-                    Email: <a href="mailto:info@vrtuvisoft.com">info@vrtuvisoft.com</a>
-                </li>
-            </ul>
+    <div class="container-fluid">
+        <!--Contacts section starts-->
+        <div>
+            <a href="/" class="logo-container">
+                <img src="./images/logo-bw.svg" alt="Vitruvi logo">
+            </a>
+            <div class="contacts">
+                <h3>Address</h3>
+                <ul>
+                    <li>
+                        <i class="icon address"></i>
+                        Address: <a href="https://goo.gl/maps/YZUXneKA48mJt8Dj7" target="_blank">3 H.Hakobyan str.
+                        56</a>
+                    </li>
+                    <li>
+                        <i class="icon phone"></i>
+                        <a href="tel:+3749 55 55 55">+3749 55 55 55</a></li>
+                    <li>
+                        <i class="icon mail"></i>
+                        Email: <a href="mailto:info@vrtuvisoft.com">info@vrtuvisoft.com</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-    <!--Contacts section ends-->
+        <!--Contacts section ends-->
 
-    <!--ToDo: insert sitemap's links-->
-    <ul class="site-map">
-        <li>
-            <h3>Vehicle identification <br/> and tracking</h3>
-            <ul>
-                <li><a href="#">Automatic license plate recognition</a></li>
-                <li><a href="#">Empty parking slot detection module</a></li>
-                <li><a href="#">Access control system</a></li>
-            </ul>
-        </li>
-        <li>
-            <h3>Face Recognition</h3>
-            <ul>
-                <li><a href="#">Automatic license plate recognition</a></li>
-                <li><a href="#">Empty parking slot detection module</a></li>
-            </ul>
-        </li>
-        <li>
-            <h3>Face Recognition</h3>
-            <ul>
-                <li><a href="#">Automatic license plate recognition</a></li>
-                <li><a href="#">Empty parking slot detection module</a></li>
-            </ul>
-        </li>
-    </ul>
+        <!--ToDo: insert sitemap's links-->
+        <ul class="site-map">
+            <li>
+                <h3>Vehicle identification <br/> and tracking</h3>
+                <ul>
+                    <li><a href="#">Automatic license plate recognition</a></li>
+                    <li><a href="#">Empty parking slot detection module</a></li>
+                    <li><a href="#">Access control system</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Face Recognition</h3>
+                <ul>
+                    <li><a href="#">Automatic license plate recognition</a></li>
+                    <li><a href="#">Empty parking slot detection module</a></li>
+                </ul>
+            </li>
+            <li>
+                <h3>Face Recognition</h3>
+                <ul>
+                    <li><a href="#">Automatic license plate recognition</a></li>
+                    <li><a href="#">Empty parking slot detection module</a></li>
+                </ul>
+            </li>
+        </ul>
     </div>
 </footer>
 
