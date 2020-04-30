@@ -1,0 +1,68 @@
+.expertise {
+  margin: 70px auto;
+}
+
+.accordion {
+  .card {
+    border-color: #ffffff;
+    border-radius: 0;
+    letter-spacing: 0;
+    color: #4D4D4D;
+
+    .card-header {
+      position: relative;
+      padding: 30px 30px 30px 65px;
+      background-color: #F8F8F8;
+      border: none;
+      font-family: Roboto, "Open Sans", serif;
+      font-size: 20px;
+      line-height: 24px;
+      font-weight: normal;
+      cursor: pointer;
+
+      &::before {
+        content: url(../images/icons/plus.svg);
+        display: inline-block;
+        position: absolute;
+        left: 25px;
+        top: 50%;
+        transform: translateY(-50%);
+      }
+
+      &::after {
+        content: "";
+        position: absolute;
+        width: 2px;
+        height: 11px;
+        left: 36px;
+        top: calc(50% - 8px);
+        background-color: #22a2ff;
+        border-radius: 6px;
+        transition: transform .3s ease;
+      }
+
+      &[aria-expanded="true"]::after {
+        transform: rotate(-90deg);
+      }
+    }
+
+    .card-body {
+      padding: 10px 30px 30px 70px;
+      background-color: #F8F8F8;
+    }
+
+    ul {
+      li {
+        position: relative;
+        display: block;
+        padding: 2px 7px 3px;
+        &::before {
+          content: '-';
+          position: absolute;
+          left: 0;
+        }
+      }
+    }
+
+  }
+}

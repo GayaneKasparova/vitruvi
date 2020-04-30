@@ -1,4 +1,4 @@
-@import "../utils/breakpoints";
+@import "../../utils/breakpoints";
 
 header {
   position: relative;
@@ -49,9 +49,10 @@ header {
     nav {
       display: flex;
       @include media-breakpoint-up(md) {
-        padding-left: 130px;
+        padding-left: 150px;
       }
       @include media-breakpoint-only(md) {
+        height: 60px;
         position: relative;
         order: 2;
       }
@@ -71,7 +72,6 @@ header {
       }
 
       @include media-breakpoint-up(xl) {
-        padding-left: 150px;
         justify-content: flex-end;
       }
 
@@ -87,14 +87,13 @@ header {
           align-items: center;
         }
         @include media-breakpoint-up(xl) {
-          max-width: 950px;
+          max-width: 900px;
         }
 
         & > li {
           height: 100%;
           @include media-breakpoint-up(md) {
             width: 100%;
-            padding: 5px 0;
           }
 
           & > a,
@@ -135,9 +134,9 @@ header {
                 left: -30px;
                 right: 30px;
                 max-height: 0;
+                overflow: hidden;
                 display: flex;
-                padding: 50px 30px;
-                transition: all .3s ease;
+                transition: max-height .3s ease;
               }
               @include media-breakpoint-up(lg) {
                 padding-top: 30px;
@@ -198,6 +197,7 @@ header {
             @include media-breakpoint-up(md) {
               &:hover .sub-menu {
                 max-height: 3000px;
+                padding: 50px 30px;
                 z-index: 100;
                 background-color: #ffffff;
               }

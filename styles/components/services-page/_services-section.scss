@@ -1,0 +1,23 @@
+.services {
+  padding: 45px 15px 55px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  & > div {
+    margin-top: 20px;
+    ul {
+      margin-top: 25px;
+      font-family: Roboto, "Open Sans", serif;
+      font-size: 18px;
+      font-weight: 500;
+      li {
+        position: relative;
+        padding-left: 5px;
+        &::before {
+          content: "-";
+          margin-right: 3px;
+        }
+      }
+    }
+  }
+}

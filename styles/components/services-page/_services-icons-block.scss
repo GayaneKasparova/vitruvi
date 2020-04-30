@@ -1,52 +1,144 @@
 .services-icons {
+  position: relative;
+  padding: 30px;
+  overflow: hidden;
+  background-image: radial-gradient(closest-side at 50% 50%, #9D0073 0%, #3E0264 100%);
 
+  &::before {
+    content: "";
+    width: 596px;
+    height: 432px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    background-image: url(../images/honeycombs-lg.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    z-index: 1;
+    transform: translate(50%, -50%);
+  }
+
+  & > div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    z-index: 2;
+
+    & > div {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+
+      &:not(:nth-of-type(2)) {
+        justify-content: center;
+      }
+    }
+  }
 }
 
 .service-icon {
+  position: relative;
+  display: flex;
+  width: 218px;
+  justify-content: center;
+  align-items: flex-end;
   * {
     transition: all .3s ease;
   }
-  p {
-    opacity: 0;
+
+  svg {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
   }
+  
+  p {
+    margin: 0;
+    font-family: Roboto, "Open Sans", serif;
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 500;
+    text-align: center;
+    color: #ffffff;
+    @media (hover: hover) {
+      opacity: 0;
+    }
+  }
+
+  &#icon1 {
+    height: 214px;
+  }
+  &#icon2 {
+    height: 208px;
+  }
+  &#icon3 {
+    width: 400px;
+    height: 310px;
+  }
+  &#icon4 {
+    height: 210px;
+  }
+  &#icon5 {
+    height: 214px;
+  }
+
   &:hover {
-    opacity: 1;
+    p {
+      @media (hover: hover) {
+        opacity: 1;
+      }
+    }
 
     .mob-apps-icon {
       width: 200.423px;
       height: 172.556px;
+
       #Path_44235 {
         d: path("M407.4,207.311l-9.361-5.44c-6.918,3.994-12.534,12.289-12.516,18.489l9.361,5.441C394.862,219.6,400.478,211.3,407.4,207.311Z");
       }
+
       #Group_24423 {
         transform: translate(70.648px, 12.156px) rotate(-9deg);
       }
+
       #Group_24438 {
         transform: translate(173.444px, 96.355px);
       }
+
       #Path_44003 {
         transform: translate(-409.272px, -178.193px);
       }
+
       #Group_24506 {
         transform: translate(106.332px, 130.199px);
       }
+
       #Path_44216 {
         transform: translate(-386.41px, -206.15px);
       }
+
       #Path_44241 {
         d: path("M384.447,209.467l3.746-2.176a2.787,2.787,0,0,0-.812-.323l-3.744,2.176a2.822,2.822,0,0,1,.811.323Z");
       }
+
       #Path_44267 {
         transform: translate(-390.501px, -213.464px);
       }
+
       #Group_24937 {
         transform: matrix(0.921, -0.391, 0.391, 0.921, 0, 131.724);
       }
     }
   }
+
   .mob-apps-icon {
     width: 137.13px;
     height: 136.095px;
+
     .cls-1 {
       fill: #f0f3f9;
     }
@@ -225,30 +317,39 @@
       opacity: 0.5;
       fill: url(#linear-gradient-9);
     }
+
     #Path_44235 {
       d: path("M407.4,207.311l-9.361-5.44c-6.918,3.994-12.534,12.289-12.516,18.489l9.361,5.441C394.863,219.6,400.478,211.3,407.4,207.311Z");
     }
+
     #Group_24423 {
       transform: translate(59.422px);
     }
+
     #Group_24438 {
       transform: translate(100.852px, 60.894px);
     }
+
     #Path_44003 {
       transform: translate(-409.273px, -178.193px);
     }
+
     #Group_24506 {
       transform: translate(61.739px, 93.738px);
     }
+
     #Path_44216 {
       transform: translate(-386.411px, -206.15px);
     }
+
     #Path_44241 {
       d: path("M384.447,209.467l3.746-2.176a2.787,2.787,0,0,0-.812-.323l-3.744,2.176a2.823,2.823,0,0,1,.811.323Z");
     }
+
     #Path_44267 {
       transform: translate(-390.502px, -213.464px);
     }
+
     #Group_24937 {
       transform: translate(0px, 68.441px);
     }
