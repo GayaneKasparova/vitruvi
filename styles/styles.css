@@ -1500,7 +1500,10 @@ footer .site-map ul li {
 }
 
 .expertise {
-  margin: 70px auto;
+  margin: 65px auto;
+}
+.expertise h2 {
+  margin-bottom: 40px;
 }
 
 .accordion .card {
